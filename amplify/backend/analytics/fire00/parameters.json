@@ -1,0 +1,21 @@
+{
+    "appName": "fire00",
+    "roleName": "pinpointLambdaRolea67b35fb",
+    "cloudformationPolicyName": "cloudformationPolicya67b35fb",
+    "cloudWatchPolicyName": "cloudWatchPolicya67b35fb",
+    "pinpointPolicyName": "pinpointPolicya67b35fb",
+    "authPolicyName": "pinpoint_amplify_a67b35fb",
+    "unauthPolicyName": "pinpoint_amplify_a67b35fb",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

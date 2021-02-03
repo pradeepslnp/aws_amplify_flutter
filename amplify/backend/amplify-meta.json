@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fire00-dev-145047-authRole",
+      "UnauthRoleArn": "arn:aws:iam::632332512132:role/amplify-fire00-dev-145047-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::632332512132:role/amplify-fire00-dev-145047-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-fire00-dev-145047-deployment",
+      "UnauthRoleName": "amplify-fire00-dev-145047-unauthRole",
+      "StackName": "amplify-fire00-dev-145047",
+      "StackId": "arn:aws:cloudformation:ap-south-1:632332512132:stack/amplify-fire00-dev-145047/1c38b150-6601-11eb-aeb8-0ad9c5eb67ce",
+      "AmplifyAppId": "d3oji6zkayi7sj"
+    }
+  },
+  "auth": {
+    "fire008eff8ad5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-fire00-dev-145047-deployment/amplify-cfn-templates/auth/fire008eff8ad5-cloudformation-template.yml",
+        "logicalId": "authfire008eff8ad5"
+      },
+      "lastPushTimeStamp": "2021-02-03T09:27:21.542Z",
+      "output": {
+        "AppClientSecret": "j7tf1b2rb5booht2ipsgck57t4b9v7dbj2qm094hb21nphv6fbn",
+        "UserPoolId": "ap-south-1_DnBO82L6M",
+        "AppClientIDWeb": "689kk0j735om10k4bggruabjfj",
+        "AppClientID": "7n33ujv269af3sg7n10ucej9b2",
+        "IdentityPoolId": "ap-south-1:6bc81e21-aac3-4488-b263-753475a4b7a9",
+        "IdentityPoolName": "fire008eff8ad5_identitypool_8eff8ad5__dev",
+        "UserPoolName": "fire008eff8ad5_userpool_8eff8ad5"
+      },
+      "lastPushDirHash": "D9Oxu6kUMe8C1c9Y5IjR2W3WGyw="
+    }
+  },
+  "analytics": {
+    "fire00": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-fire00-dev-145047-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticsfire00"
+      },
+      "lastPushTimeStamp": "2021-02-03T09:27:21.542Z",
+      "output": {
+        "appName": "fire00-dev",
+        "Region": "us-west-2",
+        "Id": "528e795642464d3aa8e017e075e476ef"
+      },
+      "lastPushDirHash": "NAEslG2tFTsq8ofJFk4BumDosAQ="
+    }
+  }
+}
