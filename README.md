@@ -1,0 +1,1 @@
+# aws_amplify_flutter
